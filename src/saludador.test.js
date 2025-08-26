@@ -1,7 +1,15 @@
-import saludar from "./saludador.js";
+import { 
+    saludar, 
+    saludarNombre
 
-describe("Saludar", () => {
+ } from "./saludador.js";
+
+describe("Funciones de Saludador", () => {
   it("deberia saludar con 'Hola Ok' ", () => {
     expect(saludar()).toEqual("Hola Ok");
+  }); 
+  const nombre = "Nicole" 
+  it("deberia saludar con 'Hola Nicole'" , () => {
+    expect(saludarNombre(nombre)).toEqual("Hola Nicole");
   });
 });
