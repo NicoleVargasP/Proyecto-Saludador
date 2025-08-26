@@ -38,17 +38,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9f3e7878828b771ccd5858b57586865a7d0da029",
     "author": "Nicole Vargas",
     "commit": {
       "date": "2025-08-26T04:33:48.000Z",
       "message": "feat:Saludar por Hora",
-      "url": "https://github.com/NicoleVargasP/Proyecto-Saludador/commit/HEAD"
+      "url": "https://github.com/NicoleVargasP/Proyecto-Saludador/commit/9f3e7878828b771ccd5858b57586865a7d0da029"
     },
     "stats": {
       "total": 24,
       "additions": 21,
       "deletions": 3,
+      "date": "2025-08-26"
+    },
+    "coverage": 18.18,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nicole Vargas",
+    "commit": {
+      "date": "2025-08-26T04:45:12.000Z",
+      "message": "fix: Coreccion de errores 1",
+      "url": "https://github.com/NicoleVargasP/Proyecto-Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 2,
+      "deletions": 0,
       "date": "2025-08-26"
     },
     "coverage": 18.18,
