@@ -1,6 +1,7 @@
 import {
   saludar,
-  saludarNombre
+  saludarNombre,
+  saludarPorHora
 } from "./saludador.js";
 
 
@@ -17,3 +18,4 @@ form.addEventListener("submit", (event) => {
 });
 
 saludardiv.innerHTML = "<p>" + saludar() + "</p>";
+saludardiv.innerHTML = "<p>" + saludarPorHora() + "</p>"; 
