@@ -18,10 +18,24 @@ function saludarPorHora() {
     res = "Buenas noches";
   }
   return res
+} 
+function SaludarPorGenEdad(genero,edad) {
+    if (genero === "femenino") {
+        if(edad>30)
+            return"Señora:  "
+        else
+            return"Señorita "
+    } else {
+        if(edad>30)
+            return"Señor "
+        else
+            return"Caballero "
+    }
 }
 
 export { 
     saludar, 
     saludarNombre,
-    saludarPorHora
+    saludarPorHora,
+    SaludarPorGenEdad
 };

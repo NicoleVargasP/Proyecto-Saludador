@@ -6,11 +6,18 @@
   <body>
     <h1>Saludador1</h1>
     <form id="saludador-form">
-  <div id="saludar-div"></div>
-      <label for="inputNombre">Escirba su nombre:</label> 
-       <input type="text" id="nombre" name="nombre"/> 
+      <label for="nombre-input">Escirba su nombre:</label> 
+       <input type="text" id="nombre-input"/> 
+        <label for="genero-select">Genero:</label>
+      <select name="genero" id="genero-select">
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+        </select> 
+         <label for="edad-input">Edad:</label>
+      <input type="number" id="edad-input" />
        <button type="submit">Saludar</button>
     </form>
+    <div id="saludar-div"></div> 
     <script type="module" src="./src/presenter2.js"></script> 
   </body>
 </html>
